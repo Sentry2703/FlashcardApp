@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flashcard App</string>
+    <string name= "question">Who was the first master of four elements ?</string>
+    <string name= "answer">Avatar Wan</string>
+</resources>
