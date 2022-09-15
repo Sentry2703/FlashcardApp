@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:visibility="visible">
 
     <TextView
         android:id="@+id/question1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@drawable/card_background"
         android:gravity="center"
         android:text="@string/question"
         android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/toggle_answer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/question1"
+        android:layout_marginTop="-145dp"
+        android:background="@drawable/answer_background"
+        android:gravity="center"
+        android:text="@string/answer"
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/answer"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@id/question1"
-        android:layout_marginTop="-148dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/options_background"
         android:gravity="center"
         android:text="@string/answer"
         android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/wrong_answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/answer"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/options_background"
+        android:gravity="center"
+        android:text="@string/wrong_answer_1"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/wrong_answer_2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/wrong_answer_1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/options_background"
+        android:gravity="center"
+        android:text="@string/wrong_answer_2"
+        android:textSize="35sp" />
+
 
 </RelativeLayout>
