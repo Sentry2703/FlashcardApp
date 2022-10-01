@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Flashcard App</string>
-    <string name= "question">Who was the first master of four elements ?</string>
-    <string name= "answer">Avatar Wan</string>
-    <string name = "wrong_answer_1">Avatar Kyoshi</string>
-    <string name = "wrong_answer_2">Avatar Aang</string>
+    <string name="question">Who was the first master of four elements ?</string>
+    <string name="answer">Avatar Wan</string>
+    <string name="wrong_answer_1">Avatar Kyoshi</string>
+    <string name="wrong_answer_2">Avatar Aang</string>
 </resources>

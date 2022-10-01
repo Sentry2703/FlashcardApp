@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@id/question1"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="61dp"
         android:background="@drawable/options_background"
         android:gravity="center"
         android:text="@string/answer"
@@ -60,5 +60,11 @@
         android:text="@string/wrong_answer_2"
         android:textSize="35sp" />
 
-
+    <ImageView
+        android:id="@+id/add_question_button"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon_add" />
 </RelativeLayout>
