@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(){
         val wrongAnswer2 = findViewById<TextView>(R.id.wrong_answer_2)
         val backgroundInteract = findViewById<RelativeLayout>(R.id.background)
         val addQuestion = findViewById<ImageView>(R.id.add_question_button)
+        val editQuestion = findViewById<ImageView>(R.id.edit_question_button)
 
         flashcardQuestion.visibility = View.VISIBLE
         flashcardAnswer.visibility = View.INVISIBLE
@@ -86,7 +87,13 @@ class MainActivity : AppCompatActivity(){
         addQuestion.setOnClickListener {
             val intent = Intent(this, AddCardActivity::class.java)
             resultLauncher.launch(intent)
+        }
 
+        editQuestion.setOnClickListener {
+            val intent = Intent(this, AddCardActivity::class.java)
+            intent.putExtra("question", flashcardQuestion.text)
+            intent.putExtra("answer", flashcardAnswer.text)
+            resultLauncher.launch(intent)
         }
     }
 }
