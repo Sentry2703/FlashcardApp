@@ -5,7 +5,7 @@
 ### App Description
 `TODO://` Save data to a database and cycle through
 
-<img src="http://g.recordit.co/HaYI8WsYuw.gif" width="200" height="400" /> <&emsp;> <img src="http://g.recordit.co/oWs1qOWR4G.gif" width="200" height="400" />
+<img src="http://g.recordit.co/HaYI8WsYuw.gif" width="200" height="400" /> &emsp;&emsp;&emsp; <img src="http://g.recordit.co/oWs1qOWR4G.gif" width="200" height="400" />
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
