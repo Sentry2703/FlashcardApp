@@ -30,9 +30,9 @@
     <TextView
         android:id="@+id/answer"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:layout_below="@id/question1"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="130dp"
         android:background="@drawable/options_background"
         android:gravity="center"
         android:text="@string/answer"
@@ -41,7 +41,7 @@
     <TextView
         android:id="@+id/wrong_answer_1"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:layout_below="@id/answer"
         android:layout_marginTop="20dp"
         android:background="@drawable/options_background"
@@ -52,12 +52,12 @@
     <TextView
         android:id="@+id/wrong_answer_2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:layout_below="@id/wrong_answer_1"
         android:layout_marginTop="20dp"
         android:background="@drawable/options_background"
         android:gravity="center"
-        android:text="@string/wrong_answer_2"
+        android:text= "@string/wrong_answer_2"
         android:textSize="35sp" />
 
     <ImageView
@@ -74,6 +74,32 @@
         android:layout_height="95dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/icon_edit"
+        android:src="@drawable/icon_edit" />
+
+    <ImageView
+        android:id="@+id/next_question_button"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_below="@id/question1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <ImageView
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_below="@id/question1"
+        android:layout_marginTop="11dp"
+        android:id="@+id/previous_question_button"
         />
+
+    <ImageView
+        android:id="@+id/delete_All"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_delete_24" />
 </RelativeLayout>

@@ -4,4 +4,9 @@
     <string name="answer">Avatar Wan</string>
     <string name="wrong_answer_1">Avatar Kyoshi</string>
     <string name="wrong_answer_2">Avatar Aang</string>
+    <string name="your_answer_bozo">Your Answer, Bozo</string>
+    <string name="wrong_answer_bozo">Wrong Answer, Bozo</string>
+    <string name="wrong_answer_2_bozo">Wrong Answer 2, Bozo</string>
+    <string name="todo">TODO</string>
+    <string name="your_question_here_bozo">Your Question here, Bozo</string>
 </resources>
