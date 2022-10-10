@@ -15,7 +15,8 @@
 - [x] User can edit a card and see the edit saved when they browse through their deck of cards
 - [x] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 
-<img src="" width="200" height="400" /> 
+<img src="http://g.recordit.co/HaYI8WsYuw.gif" width="200" height="400" />
+<img src="http://g.recordit.co/oWs1qOWR4G.gif" width="200" height="400" />
 
 ## Lab 2
 
