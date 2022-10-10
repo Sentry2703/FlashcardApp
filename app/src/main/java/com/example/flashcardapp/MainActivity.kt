@@ -127,6 +127,7 @@ class MainActivity : AppCompatActivity(){
             intent.putExtra("wrong2", wrongAnswer2.text)
             resultLauncher.launch(intent)
             flashcardDatabase.deleteCard(flashcardQuestion.text.toString())
+            allFlashcards = flashcardDatabase.getAllCards().toMutableList()
         }
 
         val nextQuestion = findViewById<ImageView>(R.id.next_question_button)
@@ -187,6 +188,15 @@ class MainActivity : AppCompatActivity(){
             flashcardDatabase.deleteAll()
             flashcardDatabase.initFirstCard()
             allFlashcards = flashcardDatabase.getAllCards().toMutableList()
+        }
+
+        val clearQuestion = findViewById<ImageView>(R.id.clear_button)
+        clearQuestion.setOnClickListener {
+            if (allFlashcards.size > 1) {
+                allFlashcards = flashcardDatabase.getAllCards().toMutableList()
+                flashcardDatabase.deleteCard(allFlashcards[currCardDisplayedIndex].question)
+                allFlashcards = flashcardDatabase.getAllCards().toMutableList()
+            }
         }
     }
 }

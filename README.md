@@ -10,7 +10,7 @@
 - [X] User can create muliple cards and browse through all created cards
 
 ## Optional
-- [ ] User can delete a card and no longer see it in their deck anymore
+- [x] User can delete a card and no longer see it in their deck anymore
 - [ ] Flashcards are shown in random order instead of the order they were created in
 - [x] User can edit a card and see the edit saved when they browse through their deck of cards
 - [x] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
@@ -35,9 +35,9 @@
 
 ## Optional
 - [x] User can edit a card
-- [ ] An error message is shown if the user doesn't enter both a Question and an Answer
+- [x] An error message is shown if the user doesn't enter both a Question and an Answer
 - [ ] A notification is shown if the card was created successfully
-- [ ] User can also enter multiple choice answers when creating a card
+- [x] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
 
 ## Lab 1

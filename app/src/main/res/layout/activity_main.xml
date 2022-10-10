@@ -87,13 +87,12 @@
         android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
 
     <ImageView
-        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        android:id="@+id/previous_question_button"
         android:layout_width="84dp"
         android:layout_height="84dp"
         android:layout_below="@id/question1"
         android:layout_marginTop="11dp"
-        android:id="@+id/previous_question_button"
-        />
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
 
     <ImageView
         android:id="@+id/delete_All"
@@ -102,4 +101,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/ic_baseline_delete_24" />
+
+    <ImageView
+        android:id="@+id/clear_button"
+        android:layout_below="@id/question1"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/clear_button"
+        />
 </RelativeLayout>
