@@ -5,14 +5,16 @@
       <map>
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/answer_background.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/card_background.xml" value="0.2395" />
+        <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/clear_button.xml" value="0.2385" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/icon_add.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/icon_cancel.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/icon_edit.xml" value="0.2395" />
+        <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/icon_save.xml" value="0.2385" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/drawable/options_background.xml" value="0.2395" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/layout/activity_add_card.xml" value="0.25" />
-        <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/adetu/AndroidStudioProjects/FlashcardApp/app/src/main/res/layout/solid_color_shape.xml" value="0.24583333333333332" />
       </map>
     </option>

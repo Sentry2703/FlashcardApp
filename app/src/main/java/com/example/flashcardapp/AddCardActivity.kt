@@ -21,10 +21,13 @@ class AddCardActivity : AppCompatActivity() {
 
         val cancelIcon = findViewById<ImageView>(R.id.cancel_button)
 
-        val saveIcon = findViewById<ImageView>(R.id.save_button)
         cancelIcon.setOnClickListener {
             finish()
+            overridePendingTransition(R.anim.left_in, R.anim.right_out)
         }
+
+        val saveIcon = findViewById<ImageView>(R.id.save_button)
+
 
         val questionEditText = findViewById<EditText>(R.id.New_Question)
         val answerEditText = findViewById<EditText>(R.id.New_Answer)
@@ -37,8 +40,6 @@ class AddCardActivity : AppCompatActivity() {
         wrongAnswerEditText2.setText(s4)
 
         saveIcon.setOnClickListener {
-
-
             val questionString = questionEditText.text.toString()
             val answerString = answerEditText.text.toString()
             val wrongAnswer1 = wrongAnswerEditText.text.toString()
@@ -53,6 +54,7 @@ class AddCardActivity : AppCompatActivity() {
             if ((questionString != "") && (answerString != "")) {
                 setResult(RESULT_OK, data)
                 finish()
+                overridePendingTransition(R.anim.left_in, R.anim.right_out)
             } else {
                 Toast.makeText(
                     applicationContext,

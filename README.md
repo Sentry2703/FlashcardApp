@@ -1,11 +1,30 @@
 ## Flashcard App
 
+## Lab 4
+
+### App Description
+`TODO://` Add Animations and Change Color Themes
+
+### App Walk-though
+
+<img src="YOUR_GIF_URL_HERE" width=200><br>
+
+## Required
+- [x] User sees a transition animation when going from the main screen to the add card screen.
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees flashcards animating in / out when the 'next' button is tapped
+
+## Optional
+- [x] Extra styling is added!
+- [ ] User sees a countdown timer for each question
+- [ ] User sees a 'card flip' animation when the card is tapped
+- [ ] User sees a celebration animation with confetti when they answer a question correctly
 ## Lab 3 :
 
 ### App Description
 `TODO://` Save data to a database and cycle through
 
-<img src="http://g.recordit.co/HaYI8WsYuw.gif" width="200" height="400" /> &emsp;&emsp;&emsp; <img src="http://g.recordit.co/oWs1qOWR4G.gif" width="200" height="400" />
+<img src="http://g.recordit.co/HaYI8WsYuw.gif" width="200" height="400" /> &emsp;&emsp; <img src="http://g.recordit.co/oWs1qOWR4G.gif" width="200" height="400" />
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.

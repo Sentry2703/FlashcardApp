@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/diff_yellow"
     tools:context=".AddCardActivity">
 
     <EditText
@@ -12,7 +12,8 @@
         android:layout_height="50dp"
         android:layout_margin = "20dp"
         android:hint="@string/your_question_here_bozo"
-         />
+        android:autofillHints=""
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/New_Answer"
@@ -23,7 +24,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:hint="@string/your_answer_bozo" />
+        android:hint="@string/your_answer_bozo"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/New_Wrong_Answer_1"

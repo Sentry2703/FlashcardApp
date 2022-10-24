@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:visibility="visible">
+    tools:visibility="visible"
+    android:background="@color/whitish">
 
     <TextView
         android:id="@+id/question1"
@@ -57,7 +58,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/options_background"
         android:gravity="center"
-        android:text= "@string/wrong_answer_2"
+        android:text="@string/wrong_answer_2"
         android:textSize="35sp" />
 
     <ImageView
